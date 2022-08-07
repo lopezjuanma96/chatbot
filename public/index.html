@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./styles.css">
+    <script src="./socket.io/socket.io.js"></script>
     <title>Chatbot</title>
 </head>
 <body>
@@ -20,10 +21,11 @@
         <form class="messageForm">
             <input class="messageFormInput" type="text" name="msgInp" id="msgInp">
             <div class="messageFormButtons">
-                <button class="messageSendButton" id="sendMsgBtn">Enviar</button>
+                <button class="messageSendButton" id="sendMsgBtn" type="button">Enviar</button>
                 <button class="messageClearButton" type="reset">Borrar</button>
             </div>
         </form>
     </div>
+    <script src="./logic.js"></script>
 </body>
 </html>
