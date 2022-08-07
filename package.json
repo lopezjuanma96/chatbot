@@ -1,5 +1,6 @@
 {
   "name": "chatbot",
+  "type": "module",
   "version": "1.0.0",
   "description": "some attempt to create a chatbot",
   "main": "index.js",
